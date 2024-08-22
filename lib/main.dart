@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:maxsudjon/1-lesson/provider/counter_view_model.dart';
 import 'package:maxsudjon/1-lesson/provider/provider_counter.dart';
 import 'package:maxsudjon/2-lesson/ui/products/products_page.dart';
-import 'package:maxsudjon/2-lesson/view_model/product_view_model.dart';
+import 'package:maxsudjon/2-lesson/view_model/products_view_model.dart';
 
 import 'package:provider/provider.dart';
 

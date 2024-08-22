@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:maxsudjon/2-lesson/data/models/product_model/product_model.dart';
 import 'package:maxsudjon/2-lesson/ui/products/widgets/product_item.dart';
-import 'package:maxsudjon/2-lesson/view_model/product_view_model.dart';
+import 'package:maxsudjon/2-lesson/view_model/products_view_model.dart';
 import 'package:provider/provider.dart';
 
 class ProductPage extends StatelessWidget {

@@ -14,7 +14,21 @@ class ApiService {
       print("Data keldi");
       List products =
           response.data.map((e) => ProductModel.fomJson((e))).toList();
-      return products;
+      return products ;
     }
   }
+
+
+  Future getSingleProduct(int id) async{
+    Dio dio = Dio();
+    Response response = await dio.get("https://fakestoreapi.com/products");
+    if (response.statusCode == 200) {
+      List products =
+      response.data.map((e) => ProductModel.fomJson(e)).toList();
+      return products;
+    }
+
+  }
+
+
 }
